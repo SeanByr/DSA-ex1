@@ -253,6 +253,12 @@ private File f;
 //        
        JOptionPane.showMessageDialog(null, fName + " Has been Added to the Contact Book!");
 
+        firstNameTF.setText("");
+        surnameTF.setText("");
+        emailTF.setText("");
+        phoneNumberTF.setText("");
+        addressTF.setText("");
+        companyTF.setText("");
         
     }//GEN-LAST:event_addBTNActionPerformed
 
